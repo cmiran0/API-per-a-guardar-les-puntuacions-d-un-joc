@@ -25,7 +25,7 @@ public class UsuariController {
     }
 
     @PutMapping("/joc/usuari")
-    public void updatePartida(@RequestBody Usuari user) {
+    public void updateUser(@RequestBody Usuari user) {
         this.user.updateUser(user);
     }
 
